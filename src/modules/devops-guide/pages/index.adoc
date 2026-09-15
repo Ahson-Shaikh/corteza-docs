@@ -58,6 +58,9 @@ services:
 
 If you'd rather not manage Docker Compose files yourself, {PRODUCT_NAME} also has an official one-click template on https://easypanel.io[Easypanel], a self-hosted Docker deployment platform: https://easypanel.io/templates/corteza
 
+.{PRODUCT_NAME} running in the Easypanel dashboard after a one-click deploy
+image::easypanel-deploy.png[role="data-zoomable"]
+
 == Architecture and Repository Overview
 
 === {PRODUCT_NAME} Architecture
