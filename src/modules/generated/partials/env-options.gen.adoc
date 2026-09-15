@@ -129,6 +129,26 @@ When empty path is set (default value), embedded files are used.
 
 Base URL (prefix) for all routes (<baseUrl>/auth, <baseUrl>/api, ...)
 
+== *HTTP_CORS_ALLOWED_ORIGINS*
+
+=== Type
+
+`string`
+
+
+=== Default
+
+[source]
+----
+http://*,https://*
+----
+=== Description
+
+Comma separated list of origins allowed to make cross-origin requests (CORS).
+Each origin can contain one wildcard (https://*.example.com).
+Corteza webapps served by this server do not need to be listed.
+When empty, requests from any origin are allowed.
+
 == *DOMAIN*
 
 === Type
